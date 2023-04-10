@@ -16,12 +16,12 @@ $sql = "DELETE FROM employee where empid = {$emp_id}";
 
 if ($result = $conn->query($sql)) {
     echo json_encode(array(
-        'message' => 'Record deleted successfully',
+        'message' => 'Record deleted successfully.',
         'status' => false
     ));
 } else {
     echo json_encode(array(
-        'message' => 'Sorry, Record not deleted.',
+        'message' => 'Sorry, Record not deleted..',
         'status' => false
     ));
 }
