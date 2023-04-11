@@ -16,5 +16,5 @@ if ($result->num_rows > 0) {
         'status' => false
     ));
 }
-
+// added new closed commit.
 ?>
